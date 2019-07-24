@@ -1,0 +1,92 @@
+
+Wygenerowana funkcja:
+
+f = (x16 | x14 | ~x15 | x12) & (x6 | ~x5 | ~x14) & (~x3 | ~x9 | ~x1 | x5 | x8) & (~x8 | x9 | x7 | x12 | x15) & (~x16) & (x1) & (x6 | x4 | ~x3) & (x12 | ~x1 | ~x13 | ~x2 | x8 | x10) & (x13) & (~x4 | ~x6 | x7 | ~x12 | ~x1) & (~x16) & (x3) & (~x12 | ~x9 | x6 | ~x15) & (~x5 | ~x12 | ~x14 | x6 | x7) & (~x8 | ~x10 | x14 | ~x11 | x12 | ~x15) & (x5 | x8 | x7 | ~x2 | x9 | ~x10) & (x14 | ~x13 | x15 | x7 | x16 | ~x1) & (~x8) & (x3 | x6 | x1 | ~x11 | ~x15) & (~x7 | x16 | ~x9 | x12 | x15)
+
+Legenda:
+|   operator alternatywy (OR)
+&   operator koniunkcji (AND)
+~   operator negacji (NEG)
+Wygenerowane wartosci zmiennych startowych :
+x1 = 1
+x2 = 0
+x3 = 1
+x4 = 0
+x5 = 0
+x6 = 1
+x7 = 1
+x8 = 1
+x9 = 1
+x10 = 1
+x11 = 1
+x12 = 1
+x13 = 1
+x14 = 1
+x15 = 1
+x16 = 1
+Nowe zmienne:
+Zosta³a zanegowana zmienna numer : x16, zosta³a ona wylosowana z implicentu numer: 5, którego wartoœæ by³a równa 0 
+x1 = 1
+x2 = 0
+x3 = 1
+x4 = 0
+x5 = 0
+x6 = 1
+x7 = 1
+x8 = 1
+x9 = 1
+x10 = 1
+x11 = 1
+x12 = 1
+x13 = 1
+x14 = 1
+x15 = 1
+x16 = 0
+Nowe zmienne:
+Zosta³a zanegowana zmienna numer : x8, zosta³a ona wylosowana z implicentu numer: 18, którego wartoœæ by³a równa 0 
+x1 = 1
+x2 = 0
+x3 = 1
+x4 = 0
+x5 = 0
+x6 = 1
+x7 = 1
+x8 = 0
+x9 = 1
+x10 = 1
+x11 = 1
+x12 = 1
+x13 = 1
+x14 = 1
+x15 = 1
+x16 = 0
+Nowe zmienne:
+Zosta³a zanegowana zmienna numer : x9, zosta³a ona wylosowana z implicentu numer: 3, którego wartoœæ by³a równa 0 
+x1 = 1
+x2 = 0
+x3 = 1
+x4 = 0
+x5 = 0
+x6 = 1
+x7 = 1
+x8 = 0
+x9 = 0
+x10 = 1
+x11 = 1
+x12 = 1
+x13 = 1
+x14 = 1
+x15 = 1
+x16 = 0
+
+---------------------------------------
+
+Wyniki pracy algorytmu walkSAT:
+
+Wartosci zmiennych zanegowanych:
+x8 = 0
+x9 = 0
+x16 = 0
+
+Liczba iteracji: 4
+
